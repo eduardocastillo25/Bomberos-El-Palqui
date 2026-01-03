@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Primera Compañía de Bomberos de El Palqui</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-red-700 text-white">
+    <div class="max-w-7xl mx-auto p-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">🚒 Primera Compañía de Bomberos de El Palqui</h1>
+      <nav class="space-x-4">
+        <a href="#inicio" class="hover:underline">Inicio</a>
+        <a href="#historia" class="hover:underline">Historia</a>
+        <a href="#servicios" class="hover:underline">Servicios</a>
+        <a href="#contacto" class="hover:underline">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="bg-cover bg-center h-[60vh] flex items-center justify-center" style="background-image: url('https://images.unsplash.com/photo-1605902711622-cfb43c44367f');">
+    <div class="bg-black/60 p-8 rounded-xl text-center text-white">
+      <h2 class="text-3xl font-bold mb-4">Al servicio de la comunidad</h2>
+      <p class="text-lg">Voluntarios comprometidos con su Lema
+       Trabajo Vida y Sacrificio</p>
+    </div>
+  </section>
+
+  <!-- Historia -->
+  <section id="historia" class="max-w-5xl mx-auto p-8">
+    <h3 class="text-2xl font-bold mb-4 text-red-700">Nuestra Historia</h3>
+    <p>
+      La Primera Compañía de Bomberos de El Palqui forma parte del Cuerpo de Bomberos,
+      sirviendo a la comunidad con vocación, disciplina y honor. Desde su fundación,
+      ha trabajado incansablemente en la protección de vidas y bienes.
+    </p>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="bg-white py-8">
+    <div class="max-w-5xl mx-auto p-8">
+      <h3 class="text-2xl font-bold mb-6 text-red-700">Servicios</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-gray-100 p-6 rounded-xl shadow">
+          <h4 class="font-bold mb-2">🔥 Incendios</h4>
+          <p>Respuesta rápida y profesional ante emergencias por fuego.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow">
+          <h4 class="font-bold mb-2">🚑 Rescate</h4>
+          <p>Rescate vehicular, estructural y apoyo en emergencias.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow">
+          <h4 class="font-bold mb-2">⚠️ Emergencias</h4>
+          <p>Apoyo a la comunidad en situaciones de riesgo y desastres.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria" class="max-w-6xl mx-auto p-8">
+    <h3 class="text-2xl font-bold mb-6 text-red-700">Galería de Fotos</h3>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIrsbE3yNynPI1Vn75JGtoxRP-_X87q-9k8A&s" alt="Bomberos en emergencia" class="rounded-xl shadow hover:scale-105 transition" />
+      <img src="https://scontent-scl3-1.xx.fbcdn.net/v/t39.30808-6/528784490_2229046584189582_6515480811805755479_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE057qUu3TIIJJdU9hZjqnBtjLvMA7DIdq2Mu8wDsMh2lPm_D8JrMm4OjGXfd0xX4o&_nc_ohc=-pbu6sIOuvgQ7kNvwGuCBG8&_nc_oc=Adk4o5WAT4flprr5rZjtXqYf8r8Ay_AS4Lhuv4UkKBQ-Eg0ttuoGAi6o9XO1zBmHOVhgEA_aXbym2oSUrqYIzGkj&_nc_zt=23&_nc_ht=scontent-scl3-1.xx&_nc_gid=faVwTn1UkCI5bbtmEOaxMQ&oh=00_AfrrbNBbqE-sPJY29sjFa2Cr8S_Pc91iK39-2E38Kp3f9Q&oe=695F4AD0" alt="Carro bomba" class="rounded-xl shadow hover:scale-105 transition" />
+      <img src="https://scontent-scl3-1.xx.fbcdn.net/v/t39.30808-6/335972236_593239006023056_6343162653319179797_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=104&ccb=1-7&_nc_sid=7a06f5&_nc_eui2=AeF0uuDc3AT-NcVJZv1t_TB7R-iheWd3ip5H6KF5Z3eKnra1KV7AkoEvszrb25Q7Ijo&_nc_ohc=TxnhZJEKmoIQ7kNvwHDPS-B&_nc_oc=AdlQbtYPDfwZ1ebOJL6Rjdz-vC1A9HH00p8VIAoM_BBFffDSx18UZwk8ADXXJLapS3fn0L7E1aNhRpXQOHMCkS8-&_nc_zt=23&_nc_ht=scontent-scl3-1.xx&_nc_gid=73QqeiIowUGY4TUuM1zhVQ&oh=00_AfrBj3Xg7ggKaxj7q_xzoxu5LFFlwAo4jc6QcgaONUcZvg&oe=695F3183" alt="Entrenamiento" class="rounded-xl shadow hover:scale-105 transition" />
+      <img src="https://scontent-scl3-1.xx.fbcdn.net/v/t39.30808-6/490885055_2136111453483096_4181154574879801061_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGvfhVbVrlj4eVW8jA1P7AEh-Nhk4asQ1iH42GThqxDWMLtfg5GbAP2HpIbXClFe_I&_nc_ohc=qMdSWxlqD2MQ7kNvwFDzcNv&_nc_oc=AdkpVep5ceON23HjxPd9hHSEa1iOBq1gW5BzCfPkhSeiJS-uSIzqL3rTXaH3De9ZndapjB7Iy6SEQ8SfZ2P7ThF7&_nc_zt=23&_nc_ht=scontent-scl3-1.xx&_nc_gid=ZeadEd2bhvk2Zl1-a9osbw&oh=00_Afrj_EZYnHcQkayrGSb-q175otT6UvylUeJ9d9iyYrWr-Q&oe=695F40D8" alt="Rescate" class="rounded-xl shadow hover:scale-105 transition" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-wIauq7D11igj7bMUeNd5YVVeRx2h8oMkug&s" alt="Voluntarios" class="rounded-xl shadow hover:scale-105 transition" />
+      <img src="https://scontent-scl3-1.xx.fbcdn.net/v/t1.6435-9/127246967_130197282213340_3637889741044441742_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEg8OJWTkw6HA-hKUNTmewKBbzB3noD1C8FvMHeegPUL__kQ3S3kGhcphVBHDpOYqI&_nc_ohc=N2F4NVzmrAoQ7kNvwFT70Ur&_nc_oc=AdmLcVzh7diRQlGuTlzAerNtBVFRqeWcW4EPb7htG7K1GO-pLJChs4BHQq49HXWGbYPVusUyeb5dURSSs4D1GmmG&_nc_zt=23&_nc_ht=scontent-scl3-1.xx&_nc_gid=dLs-DN_9Dc4iME6oqNe4yQ&oh=00_AfruyoWRxoClLJffh_4RahpnZTBKbYN2kPY7pEhOqdfDyQ&oe=6980F3DA" alt="Unidad bomberil" class="rounded-xl shadow hover:scale-105 transition" />
+          </div>
+  </section>
+
+  <!-- Donaciones -->
+  <section id="donaciones" class="bg-red-50 py-12">
+    <div class="max-w-5xl mx-auto p-8 text-center">
+      <h3 class="text-2xl font-bold mb-4 text-red-700">Apóyanos con tu Donación</h3>
+      <p class="mb-6 text-lg">
+        La Primera Compañía de Bomberos de El Palqui se financia gracias al apoyo de la comunidad.
+        Tu aporte nos ayuda a mantener equipos, vehículos y capacitación de nuestros voluntarios.
+      </p>
+      <p class="text-sm text-gray-600">* Próximamente integración con WebPay / Mercado Pago</p>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="max-w-5xl mx-auto p-8">
+    <h3 class="text-2xl font-bold mb-4 text-red-700">Contacto</h3>
+    <p><strong>📍 Ubicación:</strong> Galvarino 104 El Palqui, Región de Coquimbo, Chile</p>
+    <p><strong>📞 Emergencias:</strong> 132</p>
+    <p><strong>📧 Correo:</strong> contacto@bomberoselpalqui.cl</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center p-4">
+    <p>© 2026 Primera Compañía de Bomberos de El Palqui</p>
+  </footer>
+
+</body>
+</html>
